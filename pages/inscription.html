@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inscription</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../">Home</a></li>
+                <li><a href="./a-propos.html">About</a></li>
+                <li><a href="./contacts.html">Contacts</a></li>
+                <li><a href="./horaire.html">Horaire</a></li>
+                <li><a href="./inscription.html">S'inscrire</a></li>
+            </ul>
+        </nav>
+        <h1>S'inscrire</h1>
+        <!-- Formulaire -->
+        <form>
+            <label for="nom">Nom : </label><input type="text" id="nom" /><br><br>
+            <label for="prenom">Prenom : </label><input type="text" id="prenom" /><br><br>
+            <label for="email">Adresse email : </label><input type="email" id="email" /><br><br>
+            <label for="techno">Choisir votre formation : </label>
+            <select id="techno">
+                <option values="">-- Choisir --</option>
+                <option values="jakarta">Jakarta EE</option>
+                <option values="docker">Docker</option>
+                <option values="angular">Angular</option>
+                <option values="spring">Spring</option>
+                <option values="bootstrap">Bootstrap</option>
+                <option values="kunernetes">Kubernetes</option>
+                <option values="react">React.js</option>
+            </select>
+        </form>
+    </body>
+</html>
