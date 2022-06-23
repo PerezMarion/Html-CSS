@@ -1,0 +1,38 @@
+/* Selecteur d'élément : balise ciblée par la mise en forme */
+
+h1{
+    color:blue;
+}
+
+/* Sélecteur de classe */
+
+.text-italic{
+    font-style:italic;
+}
+
+.text-danger{
+    color:red;
+    font-weight: bold;
+}
+
+/* Selecteur d'id (a éviter)*/
+
+#paragraphe-1{
+    color:indigo;
+}
+
+/* Combinateur */
+/* Cibler tous les elements ... qui sont des enfants directs de ... */
+ol > li{
+    font-weight: bold;
+}
+/* Cibler tous les elements ... qui sont des enfants (directs ou non) de ... */
+/* ol li{ ... }
+
+/*Selecteur d'attribut*/
+
+a[href="./"]{
+    color:green;
+    font-size: large;
+}
+
