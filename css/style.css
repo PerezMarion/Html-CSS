@@ -113,5 +113,31 @@ h2{
     padding: 25px;
 }
 
-/* Plein d'autres à rechercher */
+.titre{
+    margin : 50px;
+    padding: 20px;
+}
+/* Bordures (si on ne choisi pas de couleur cela choisit par défaut celle du texte) 
+   On peut aussi faire des bordures arrondies */
 
+#paragraphe-1{
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+}
+
+.titre{
+    border : 8px double ;
+    border-radius: 8px ;
+}
+
+/* Largeur, hauteur 
+   Avec ces contraintes, tous le texte ne rentre plus :
+   On va le cacher et faire apparaitre une barre de défilement */
+
+.color-2{
+    width: 375px;
+    height : 400px;
+    overflow: scroll;
+}
+
+/* Plein d'autres à rechercher pas besoin de tout retenir */
