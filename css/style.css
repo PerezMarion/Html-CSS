@@ -1,3 +1,7 @@
+/* ---------------------------------------------------------------------------------- */
+/*                                      SELECTEUR                                     */
+/* ---------------------------------------------------------------------------------- */
+
 /* Selecteur d'élément : balise ciblée par la mise en forme */
 
 h1{
@@ -12,13 +16,12 @@ h1{
 
 .text-danger{
     color:red;
-    font-weight: bold;
 }
 
 /* Selecteur d'id (a éviter)*/
 
 #paragraphe-1{
-    color:indigo;
+    color: purple;
 }
 
 /* Combinateur */
@@ -33,6 +36,82 @@ ol > li{
 
 a[href="./"]{
     color:green;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/*                                      PROPRIETE                                     */
+/* ---------------------------------------------------------------------------------- */
+
+/* Couleur de police (trois possibilités mais garder toujours la même dans un fichier)
+   Couleur de fond (surligneur) */
+
+.color-1{
+    color:violet;
+}
+
+.color-2{
+    color:#133a0b;
+}
+
+.color-3{
+    color:rgb(120,140,200)
+}
+
+#paragraphe-1{
+    background-color: orange;
+}
+
+/* Police */
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Taille (deux possibilités mais garder toujours la même dans un fichier) */
+
+a[href="./"]{
     font-size: large;
 }
+
+.phrase-accroche{
+    font-size: 18px;
+}
+
+/* Style de police : ici italique, gras et souligné mais il y en a pleind d'autres */
+
+.phrase-accroche{
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Alignement (alignement par défaut à gauche) */
+
+.titre{
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+
+.color-1{
+    text-align: justify;
+}
+
+/* Marges externes puis internes 
+(ici on a appliquer la même valeur à toutes les marges internes) */
+
+#paragraphe-1{
+    margin-top: 83;
+    margin-bottom: 45;
+    margin-left: 30;
+    margin-right: 30;
+}
+
+#paragraphe-1{
+    padding: 25px;
+}
+
+/* Plein d'autres à rechercher */
 
